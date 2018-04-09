@@ -1,12 +1,36 @@
-# Casper
+# Casper DevDark
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper. If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
+A dark version of the default theme for [Ghost](http://github.com/tryghost/ghost/).
+
+&nbsp;
+
+![screenshot-desktop](https://raw.githubusercontent.com/null-dev/Casper-DarkDev/master/assets/screenshot-desktop.png)
 
 &nbsp;
 
-![screenshot-desktop](https://user-images.githubusercontent.com/120485/27221326-1e31d326-5280-11e7-866d-82d550a7683b.jpg)
+# DevDark specific features
 
-&nbsp;
+Casper DevDark also includes some new features not found in Casper:
+- Syntax highlighting:
+   
+   Simply put the name of the language after your three ticks in markdown to activate it:
+
+    ```
+    	```java
+        System.out.println("Hello, World!");
+        ```
+    ```
+- Mark support in syntax highlighted code (powered by: http://prismjs.com/plugins/keep-markup/):
+   
+   Put `<==MARK==>` where you want to begin your mark and `<==/MARK==>` where you want to end your mark:
+    ```
+        ```css
+		@media <==MARK==>screen<==/MARK==> {        ```
+    	```
+    ```
+    
+    The example above renders something like this:&nbsp;
+    ![mark result](https://user-images.githubusercontent.com/9571936/38475948-299813c8-3b79-11e8-915c-17a24bce26cf.png)
 
 # First time using a Ghost theme?
 
@@ -64,3 +88,4 @@ You can add your own SVG icons in the same manner.
 # Copyright & License
 
 Copyright (c) 2013-2018 Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2018 Andy Bao.
