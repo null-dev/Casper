@@ -8,6 +8,9 @@ A dark version of the default theme for [Ghost](http://github.com/tryghost/ghost
 
 &nbsp;
 
+# Live demo
+You can view a live demo of the theme here: https://blog.nulldev.xyz/
+
 # DevDark specific features
 
 Casper DevDark also includes some new features not found in Casper:
