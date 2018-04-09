@@ -1,6 +1,6 @@
-# Casper DevDark
+# Casper DarkDev
 
-A dark version of the default theme for [Ghost](http://github.com/tryghost/ghost/).
+A dark version of the default theme for [Ghost](http://github.com/tryghost/ghost/) with enchancements for developers.
 
 &nbsp;
 
@@ -11,9 +11,9 @@ A dark version of the default theme for [Ghost](http://github.com/tryghost/ghost
 # Live demo
 You can view a live demo of the theme here: https://blog.nulldev.xyz/
 
-# DevDark specific features
+# DarkDev specific features
 
-Casper DevDark also includes some new features not found in Casper:
+Casper DarkDev also includes some new features not found in Casper:
 - Syntax highlighting:
    
    Simply put the name of the language after your three ticks in markdown to activate it:
@@ -28,7 +28,7 @@ Casper DevDark also includes some new features not found in Casper:
    Put `<==MARK==>` where you want to begin your mark and `<==/MARK==>` where you want to end your mark:
     ```
         ```css
-		@media <==MARK==>screen<==/MARK==> {        ```
+	@media <==MARK==>screen<==/MARK==> {
     	```
     ```
     
@@ -37,7 +37,7 @@ Casper DevDark also includes some new features not found in Casper:
 
 - Post width boosting:
    
-   Increase the display width of an individual post by placing `<script>DEVDARK_WIDE()</script>` into the post **footer's** code injection box.
+   Increase the display width of an individual post by placing `<script>DARKDEV_WIDE()</script>` into the post **footer's** code injection box.
 
    Helps make large chunks of code with very long lines much easier to read.
 

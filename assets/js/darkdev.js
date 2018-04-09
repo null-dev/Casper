@@ -11,7 +11,7 @@
 	}
 })();
 
-function DEVDARK_WIDE() {
+function DARKDEV_WIDE() {
 	var inners = document.querySelectorAll(".inner"), i;
 
 	for (i = 0; i < inners.length; ++i) {
