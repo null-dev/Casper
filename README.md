@@ -35,6 +35,12 @@ Casper DevDark also includes some new features not found in Casper:
     The example above renders something like this:&nbsp;
     ![mark result](https://user-images.githubusercontent.com/9571936/38475948-299813c8-3b79-11e8-915c-17a24bce26cf.png)
 
+- Post width boosting:
+   
+   Increase the display width of an individual post by placing `<script>DEVDARK_WIDE()</script>` into the post **footer's** code injection box.
+
+   Helps make large chunks of code with very long lines much easier to read.
+
 # First time using a Ghost theme?
 
 Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.

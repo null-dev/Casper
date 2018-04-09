@@ -10,3 +10,17 @@
 		}
 	}
 })();
+
+function DEVDARK_WIDE() {
+	var inners = document.querySelectorAll(".inner"), i;
+
+	for (i = 0; i < inners.length; ++i) {
+		inners[i].style.maxWidth = "1240px";
+	}
+
+	var mCards = document.querySelectorAll(".kg-card-markdown");
+	
+	for (i = 0; i < mCards.length; ++i) {
+		mCards[i].style.maxWidth = "initial";
+	}
+}
