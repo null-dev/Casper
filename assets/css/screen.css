@@ -390,7 +390,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     background: color(var(--d-card)) center center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: 8px 14px 38px #08090aa6, 1px 3px 8px rgba(44,52,60,.94);
+    box-shadow: 8px 14px 38px #1b1b1ba6, 1px 3px 8px rgba(44, 52, 60, 0.48);
     transition: all 0.5s ease;
 }
 
@@ -1272,7 +1272,7 @@ pre[class*="language-"] mark {
     background: var(--darkgrey) center center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: 8px 14px 38px #1b1b1ba6, 1px 3px 8px rgba(44, 52, 60, 0.48);
 }
 
 .read-next-card:before {
